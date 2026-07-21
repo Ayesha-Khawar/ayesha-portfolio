@@ -1,0 +1,490 @@
+I want you to design and build my personal portfolio website, but I do NOT want a generic portfolio template. I want this to feel like a premium product that showcases me as an AI Engineer and Software Engineer. The design should be modern, immersive, highly interactive, and polished enough to impress recruiters, hiring managers, and technical interviewers.
+
+The website should immediately communicate that I build intelligent software, AI-powered systems, and scalable full-stack applications. My goal is for visitors to remember the experience, not just the information.
+
+Deployment Requirement (Very Important)
+
+The project must be deployable for free.
+
+Design and build it so that I can deploy it directly on Vercel or Netlify without needing any paid hosting or custom servers.
+
+Do NOT use technologies or backend services that require:
+
+VPS hosting
+Docker containers in production
+Self-hosted databases
+Python backend deployment
+Local Ollama
+Local LLMs
+ChromaDB running locally
+Redis
+Express server that cannot run on Vercel
+Anything requiring a continuously running server
+Paid cloud infrastructure
+
+Instead, build everything using technologies compatible with free deployment.
+
+Use:
+
+Next.js
+React
+TypeScript
+Tailwind CSS
+Framer Motion
+Three.js / React Three Fiber
+GSAP
+ShadCN UI
+
+If backend functionality is required, use Next.js API Routes or Server Actions, which work seamlessly on Vercel.
+
+The entire project should be ready for GitHub deployment and one-click deployment on either Vercel or Netlify.
+
+Overall Design
+
+The website should look like it belongs to a senior software engineer working in Artificial Intelligence.
+
+It should be inspired by the design quality of:
+
+Apple
+Stripe
+Vercel
+Linear
+Framer
+
+Not copied—but inspired by their level of polish.
+
+The design should be:
+
+Premium
+Elegant
+Modern
+Futuristic
+Interactive
+Professional
+Minimal
+Clean
+Theme
+
+Dark mode.
+
+Primary colors:
+
+Black
+Navy
+Purple
+Electric Blue
+Cyan
+
+Use soft glowing gradients.
+
+Use glassmorphism throughout.
+
+Avoid excessive colors.
+
+Hero Section
+
+Create a cinematic landing page.
+
+Large typography.
+
+Display:
+
+Ayesha Khawar
+
+Software Engineer • Full Stack Developer • AI Engineer
+
+Professional introduction:
+
+Software Engineer specializing in AI-powered applications, Full Stack Development, LLM systems, Retrieval-Augmented Generation (RAG), REST APIs, scalable backend architectures, and modern web technologies.
+
+The hero should include a premium interactive 3D background.
+
+Examples:
+
+floating particles
+neural network
+animated grid
+holographic waves
+abstract AI visualization
+
+Mouse movement should slightly affect the background.
+
+Entire Website Interaction
+
+I do NOT want a static website.
+
+Everything should feel alive.
+
+Examples:
+
+cards lift on hover
+tilt effect
+glowing buttons
+ripple click animation
+floating objects
+animated section reveals
+parallax scrolling
+smooth transitions
+magnetic buttons
+animated gradients
+subtle background movement
+rotating icons
+glowing borders
+smooth scrolling
+
+Whenever a visitor:
+
+clicks
+hovers
+scrolls
+moves the mouse
+
+there should be polished UI feedback.
+
+The interactions should feel premium and intentional—not distracting.
+
+Cursor
+
+Replace the default cursor.
+
+Create:
+
+glowing cursor
+particle trail
+hover expansion
+smooth animations
+Navigation
+
+Floating glass navigation bar.
+
+Sections:
+
+Home
+About
+Experience
+Projects
+Skills
+Achievements
+Certifications
+AI Assistant
+GitHub
+LinkedIn
+Contact
+
+Navbar should shrink while scrolling.
+
+About
+
+Professional About section.
+
+Include information from my CV.
+
+Display animated statistics such as:
+
+CGPA
+AI Projects
+Technologies
+Internships
+Certifications
+
+Animate the numbers.
+
+Achievement Section
+
+Create an elegant showcase section.
+
+Title:
+
+Topper of the Batch
+
+Display:
+
+🏆 Topper of the Batch (2022–2026)
+
+CGPA:
+
+3.88 / 4.00
+
+University:
+
+Bahauddin Zakariya University
+
+Since the university has not yet officially awarded the Gold Medal, present it professionally as:
+
+Graduated as the Topper of the Batch (2022–2026) with a CGPA of 3.88/4.00. The official Gold Medal is pending conferment by the university.
+
+Design this section like an award showcase.
+
+Include:
+
+glowing trophy
+spotlight animation
+floating particles
+premium card
+Experience
+
+Create an animated timeline.
+
+Include:
+
+Texense
+
+Artificial Intelligence Developer Intern
+
+NYLP
+
+AI & Data Analysis Affairs Intern
+
+Cards should expand on hover.
+
+Projects
+
+Premium project cards.
+
+Project:
+
+HARBOR
+
+Include technologies:
+
+React
+
+TypeScript
+
+Node.js
+
+Express
+
+PostgreSQL
+
+Neon
+
+Drizzle ORM
+
+JWT
+
+Gemini
+
+Groq
+
+Google Places
+
+MCP
+
+REST APIs
+
+Role-Based Authentication
+
+Beautiful hover effects.
+
+Animated technology badges.
+
+Project:
+
+RAG Chatbot
+
+Include:
+
+LangChain
+
+Embeddings
+
+Vector Search
+
+Chroma concepts
+
+Python
+
+LLMs
+
+Even if the implementation changes for deployment, preserve the project description.
+
+Skills
+
+No boring progress bars.
+
+Create floating technology cards.
+
+Categories:
+
+Programming
+
+Frontend
+
+Backend
+
+Artificial Intelligence
+
+Machine Learning
+
+Databases
+
+Developer Tools
+
+Cloud
+
+Hover animations.
+
+Certifications
+
+Interactive cards.
+
+Elegant hover effects.
+
+GitHub Window
+
+Do NOT place a GitHub icon.
+
+Create a floating desktop application window styled like a GitHub client.
+
+Show:
+
+Profile picture
+Name
+Username
+Bio
+Followers
+Following
+Repository count
+Featured repositories
+Most-used languages
+
+When clicked,
+
+Open:
+
+https://github.com/Ayesha-Khawar
+
+The window should resemble a macOS desktop application.
+
+Glass effect.
+
+Floating animation.
+
+LinkedIn Window
+
+Do NOT use a simple LinkedIn button.
+
+Create another floating desktop-style application window.
+
+Display:
+
+Profile picture
+Name
+Professional headline
+Experience summary
+Education
+Skills
+About preview
+
+When clicked,
+
+Open:
+
+https://www.linkedin.com/in/ayesha-khawar1
+
+Make it look like a miniature LinkedIn application.
+
+AI Assistant (Most Important Feature)
+
+Create a built-in AI assistant dedicated only to me.
+
+This should be one of the highlights of the portfolio.
+
+Place a floating AI chat button in the bottom-right corner.
+
+When opened, display:
+
+Hi! I'm Ayesha's AI Assistant. Ask me anything about her education, projects, internships, achievements, technical skills, certifications, or experience.
+
+The assistant should answer only questions related to my portfolio and CV.
+
+Examples:
+
+Tell me about Ayesha.
+What is HARBOR?
+What technologies does she know?
+What is her CGPA?
+Tell me about her internships.
+What certifications does she have?
+What programming languages does she know?
+What AI technologies has she worked with?
+Tell me about her final-year project.
+Important Implementation Requirement
+
+Since this website must deploy on Vercel or Netlify, do NOT use local vector databases or self-hosted RAG pipelines.
+
+Instead, implement the assistant using one of these free, deployment-friendly approaches:
+
+Store my résumé and portfolio content as structured JSON or Markdown files.
+Build a lightweight retrieval layer in a Next.js API Route that searches the relevant content.
+Optionally integrate the OpenAI API (or another hosted LLM) via environment variables so I can enable it later.
+If no API key is configured, gracefully fall back to intelligent local search over my portfolio content with well-formatted answers.
+
+The chatbot must never hallucinate. If the answer isn't in my portfolio, it should politely say it doesn't have that information.
+
+Include:
+
+Streaming responses (when an LLM is configured)
+Typing indicator
+Conversation history
+Suggested prompt chips (About, Projects, Skills, Experience, Education, Contact)
+Contact
+
+Modern contact section.
+
+Include:
+
+Email
+Phone
+GitHub
+LinkedIn
+
+Add a prominent Download Résumé button.
+
+Footer
+
+Simple and elegant.
+
+Display:
+
+Designed & Developed by Ayesha Khawar
+
+Built with:
+
+Next.js
+React
+TypeScript
+Tailwind CSS
+Three.js
+Framer Motion
+Performance
+
+The website should:
+
+Be fully responsive.
+Be SEO optimized.
+Score highly on Lighthouse.
+Load quickly.
+Lazy-load heavy assets.
+Keep animations smooth (target 60 FPS where practical).
+Follow accessibility best practices.
+Code Quality
+
+Write clean, modular, production-ready code.
+
+Organize components into reusable folders.
+
+Include comments where helpful.
+
+Avoid unnecessary dependencies.
+
+Use environment variables for configurable values.
+
+Final Goal
+
+When someone visits this website, I want their first impression to be:
+
+"This is the portfolio of a highly skilled AI and Software Engineer. The design is exceptional, the interactions are delightful, and the technical implementation reflects real engineering quality."
+
+The portfolio should be memorable, immersive, and professional—something that helps me stand out while remaining easy to deploy for free on Vercel or Netlify with minimal configuration.
