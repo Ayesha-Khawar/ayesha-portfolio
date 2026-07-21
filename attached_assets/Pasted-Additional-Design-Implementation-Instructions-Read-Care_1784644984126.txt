@@ -1,0 +1,201 @@
+Additional Design & Implementation Instructions (Read Carefully)
+
+The portfolio should NOT resemble the thousands of AI-generated developer portfolios found online. Avoid the stereotypical dark background with neon blue accents, glowing grids, and generic floating code snippets. I want something that has its own visual identity.
+
+1. Create a Unique Design Language
+
+Please do not default to blue and cyan as the primary theme. Those colors are overused in AI portfolios.
+
+Instead, create a unique aesthetic that feels:
+
+Modern
+Elegant
+Sophisticated
+Feminine without being overly soft
+Confident
+Minimal
+Premium
+
+Think of colors like:
+
+Plum
+Deep Wine
+Mauve
+Soft Lavender
+Dusty Rose
+Warm Ivory
+Charcoal
+Graphite
+Rich Black
+Soft Gold accents (very subtle)
+
+The portfolio should communicate professionalism through typography, layout, motion, and detail—not just through blue colors.
+
+I want someone to instantly recognize that this portfolio has its own identity.
+
+2. Signature-Style Name
+
+At the top of the Hero section, I want my name to appear as if it is being handwritten.
+
+Display:
+
+Ayesha Khawar
+
+The animation should look like:
+
+handwritten
+ink drawing
+signature reveal
+elegant scribble animation
+
+The signature should animate only once when the page loads.
+
+After the signature animation completes, the rest of the Hero section should fade into view.
+
+The signature should become one of the branding elements of the website.
+
+3. The Website Should Never Feel Static
+
+I don't want interactions that only happen when the user scrolls.
+
+Even when someone simply opens the website and doesn't touch anything, the page should still feel alive.
+
+Examples include:
+
+slowly moving abstract shapes
+softly drifting particles
+animated gradients
+subtle floating light effects
+gentle motion in background elements
+ambient glowing objects
+morphing blobs
+elegant mesh animations
+soft flowing ribbons
+animated glass reflections
+
+The animations should be smooth, subtle, and premium—not distracting.
+
+The site should feel like it's breathing.
+
+4. Continuous Background Animation
+
+I specifically want an animated background that continuously evolves.
+
+Examples:
+
+flowing mesh gradients
+morphing organic shapes
+floating translucent ribbons
+moving constellation points
+elegant particle systems
+abstract AI-inspired artwork
+
+This animation should continue throughout the website and adapt naturally as users navigate between sections.
+
+5. Resume Download
+
+The Download Résumé button must download the exact résumé PDF I have provided.
+
+Do not use a placeholder file.
+
+Do not create a dummy PDF.
+
+The button should trigger a direct download of my actual résumé.
+
+The downloaded filename should be something professional, such as:
+
+Ayesha_Khawar_Resume.pdf
+
+6. GitHub Window
+
+Do not invent GitHub information.
+
+Do not create fake repositories or fake statistics.
+
+Use my actual GitHub profile:
+
+https://github.com/Ayesha-Khawar
+
+Fetch publicly available profile information and display it in a desktop-style application window.
+
+The window should include real data, such as:
+
+profile photo
+username
+bio
+follower count
+following count
+repository count
+pinned repositories
+recent repositories
+primary programming languages
+
+The window should resemble a real desktop application rather than a simple card.
+
+Clicking anywhere on the window should open my GitHub profile.
+
+7. LinkedIn Window
+
+Similarly, do not fabricate my LinkedIn profile.
+
+Use my actual LinkedIn profile:
+
+https://www.linkedin.com/in/ayesha-khawar1
+
+Display real information that is publicly accessible, such as:
+
+profile picture (if available)
+name
+headline
+current role
+education
+experience highlights
+skills preview
+
+Present this inside a beautifully designed desktop-style window.
+
+Clicking the window should open my LinkedIn profile.
+
+8. Every Section Should Have Its Own Personality
+
+Avoid repeating the same card design throughout the site.
+
+Each section should feel intentionally designed.
+
+For example:
+
+Hero → cinematic and immersive
+About → elegant editorial layout
+Experience → interactive timeline
+Projects → premium showcase gallery
+Skills → floating technology ecosystem
+Achievements → luxury award presentation
+Contact → minimal, refined, inviting
+
+Each section should feel like a new experience while still belonging to the same design system.
+
+9. Delightful Micro-Interactions
+
+Every interaction should provide subtle, satisfying feedback.
+
+Examples:
+
+buttons gently respond to pressure
+cards have depth and soft tilt
+icons animate naturally
+section headings reveal gracefully
+images float slightly
+glass surfaces shimmer subtly
+links animate elegantly
+
+These interactions should feel crafted, not gimmicky.
+
+10. Overall Goal
+
+The portfolio should make visitors feel as though they are exploring a carefully designed digital experience rather than simply reading a résumé.
+
+It should be memorable for its originality, craftsmanship, and attention to detail.
+
+When a recruiter or hiring manager opens the site, the reaction should be:
+
+"This doesn't look like another AI-generated developer portfolio. It feels custom-built, thoughtfully designed, and genuinely reflects the personality and professionalism of its creator."

@@ -1,6 +1,7 @@
 import { CustomCursor } from '@/components/layout/CustomCursor';
 import { Navbar } from '@/components/layout/Navbar';
 import { Footer, ScrollProgress } from '@/components/layout/Footer';
+import { AmbientBackground } from '@/components/layout/AmbientBackground';
 import { Hero } from '@/components/sections/Hero';
 import { About } from '@/components/sections/About';
 import { Experience } from '@/components/sections/Experience';
@@ -21,6 +22,7 @@ export default function Portfolio() {
 
   return (
     <div className="min-h-screen bg-background text-foreground overflow-x-hidden selection:bg-primary/30 selection:text-white">
+      <AmbientBackground />
       <CustomCursor />
       <ScrollProgress />
       <Navbar />
