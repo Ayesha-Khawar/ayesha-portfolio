@@ -1,0 +1,135 @@
+Please make the following design improvements to the portfolio. The current version is good, but it still feels too generic and doesn't yet have the premium, polished look I'm aiming for.
+
+1. Hero Name
+
+Change the font used for "Ayesha Khawar."
+
+The current font doesn't feel premium enough.
+
+Use a professional, modern font that feels elegant and high-end.
+
+Instead of simply displaying the name, animate it so that it either:
+
+appears as if it is being scribbled/signature-written, or
+is revealed using a smooth typewriter animation.
+
+The animation should happen only once when the page loads and should feel subtle and refined—not flashy.
+
+Also choose a better text color for my name that complements the website's overall theme and improves visual hierarchy.
+
+2. Overall Theme
+
+Redesign the overall visual theme to look even more premium and professional.
+
+Avoid making it look like a typical AI-generated developer portfolio.
+
+Everything should feel cohesive and intentionally designed.
+
+Use a refined color palette throughout the site instead of relying on common blue/cyan gradients.
+
+The color scheme should feel sophisticated, modern, and memorable.
+
+3. Mobile Layout (Very Important)
+
+The mobile version currently feels oversized.
+
+Please reduce the size of components across the website.
+
+For example:
+
+Skill cards
+Technology cards
+Statistics cards
+Project cards
+Buttons
+Experience cards
+
+Reduce:
+
+font sizes
+padding
+margins
+card heights
+
+The goal is that on mobile, users can see multiple pieces of information at once instead of one giant card filling the entire screen.
+
+The portfolio should feel compact, lightweight, and easy to browse.
+
+4. Overall Layout
+
+Avoid sections where one component occupies 50–70% of the screen.
+
+Use space efficiently.
+
+Keep the design airy without making everything unnecessarily large.
+
+The website should feel elegant, not oversized.
+
+5. Interactions
+
+Increase the quality of interactions throughout the site while keeping the website lightweight.
+
+I want the website to feel alive.
+
+Examples include:
+
+elegant hover effects
+smooth transitions
+subtle card movement
+interactive buttons
+animated backgrounds
+soft lighting effects
+cursor interactions
+premium micro-animations
+
+However, all animations should remain optimized so navigation stays smooth and responsive.
+
+The website should feel interactive without becoming heavy or laggy.
+
+6. LinkedIn & GitHub Windows
+
+Do not create fake LinkedIn or GitHub cards.
+
+Instead, create desktop-style windows that resemble the actual platforms.
+
+For GitHub:
+
+Use my real GitHub profile.
+Display only publicly available information retrieved from my profile.
+Show a realistic GitHub-style interface.
+Clicking the window should open my GitHub profile.
+
+GitHub:
+https://github.com/Ayesha-Khawar
+
+For LinkedIn:
+
+Use my real LinkedIn profile.
+If LinkedIn prevents live fetching, create a realistic LinkedIn-style preview using only the information available in my résumé.
+Do not invent followers, connections, experience, or profile statistics.
+Clicking the window should open my LinkedIn profile.
+
+LinkedIn:
+https://www.linkedin.com/in/ayesha-khawar1
+
+The windows should feel like miniature desktop applications rather than simple cards or buttons.
+
+7. Final Quality Goal
+
+The website should look like a custom-designed premium portfolio, not something generated from a template.
+
+Every animation, font, spacing decision, and interaction should feel intentional.
+
+The final result should be:
+
+Premium
+Professional
+Elegant
+Lightweight
+Highly interactive
+Responsive
+Original
+Smooth to navigate
+Suitable for recruiters and hiring managers
+
+Focus on craftsmanship and polish over adding unnecessary visual effects. Every design decision should improve the user experience while accurately representing my professional profile.

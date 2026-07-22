@@ -3,89 +3,116 @@ import { motion } from 'framer-motion';
 const experiences = [
   {
     company: "Texense",
+    location: "Lahore",
     role: "Artificial Intelligence Developer Intern",
-    period: "2024",
-    description: "Developed and deployed AI-powered features using Large Language Models (LLMs). Built intelligent automation pipelines and worked on integrating AI capabilities into production software systems.",
-    tags: ["Python", "LLMs", "AI Development"]
+    period: "July 2025",
+    description: "Developed AI/ML solutions including classification and prediction models, multimodal RAG chatbots, and document processing applications. Worked with SQL for query optimization and gained exposure to .NET and Entity Framework.",
+    tags: ["Python", "LLMs", "RAG", "SQL", "ML Models"],
+    accent: "hsl(320 48% 42%)",
+    accentText: "hsl(320 48% 68%)",
   },
   {
     company: "NYLP",
+    location: "",
     role: "AI & Data Analysis Affairs Intern",
-    period: "2024",
-    description: "Conducted data analysis and applied AI techniques to derive meaningful insights. Worked with data pipelines, visualization tools, and machine learning models.",
-    tags: ["Python", "Data Analysis", "Machine Learning"]
+    period: "August 2025",
+    description: "Engineered machine learning workflows involving statistical modeling, data preprocessing, and AI-driven analytics for intelligent systems. Strengthened model evaluation, documentation, and problem-solving skills.",
+    tags: ["Python", "Data Analysis", "ML Pipelines", "Statistical Modeling"],
+    accent: "hsl(345 35% 50%)",
+    accentText: "hsl(345 35% 70%)",
   }
 ];
 
 export function Experience() {
   return (
-    <section id="experience" className="py-24 relative bg-background/50">
-      <div className="container mx-auto px-6">
-        <motion.div 
+    <section id="experience" className="py-16 md:py-24 relative bg-background/50">
+      <div className="container mx-auto px-4 md:px-6">
+
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-center mb-16"
+          className="text-center mb-10 md:mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-display font-bold mb-4">
+          <h2 className="text-3xl md:text-5xl font-display font-bold mb-3">
             Professional <span className="text-gradient">Experience</span>
           </h2>
         </motion.div>
 
-        <div className="relative max-w-4xl mx-auto">
-          {/* Vertical Line */}
-          <div className="absolute left-0 md:left-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-transparent via-primary/50 to-transparent -translate-x-1/2" />
+        <div className="relative max-w-3xl mx-auto">
+          {/* Vertical timeline line */}
+          <div className="absolute left-4 md:left-1/2 top-0 bottom-0 w-px"
+            style={{ background: 'linear-gradient(to bottom, transparent, hsl(320 48% 42% / 0.4), transparent)', transform: 'translateX(-50%)' }} />
 
-          <div className="space-y-12">
+          <div className="space-y-8 md:space-y-12">
             {experiences.map((exp, index) => (
-              <motion.div 
+              <motion.div
                 key={index}
-                initial={{ opacity: 0, x: index % 2 === 0 ? -50 : 50 }}
+                initial={{ opacity: 0, x: index % 2 === 0 ? -40 : 40 }}
                 whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true, margin: "-100px" }}
-                transition={{ duration: 0.6 }}
-                className={`relative flex flex-col md:flex-row gap-8 ${
-                  index % 2 === 0 ? 'md:flex-row-reverse' : ''
-                }`}
+                viewport={{ once: true, margin: "-80px" }}
+                transition={{ duration: 0.55 }}
+                className={`relative flex md:flex-row gap-0 ${index % 2 === 0 ? 'md:flex-row-reverse' : ''}`}
               >
-                {/* Timeline Dot */}
-                <div className="absolute left-0 md:left-1/2 top-8 w-4 h-4 rounded-full bg-background border-2 border-primary -translate-x-1/2 md:translate-x-[-50%] z-10 shadow-[0_0_10px_rgba(124,58,237,0.8)]" />
+                {/* Timeline dot */}
+                <div className="absolute left-4 md:left-1/2 top-6 w-3 h-3 rounded-full border-2 z-10"
+                  style={{
+                    background: 'hsl(var(--background))',
+                    borderColor: exp.accent,
+                    transform: 'translateX(-50%)',
+                    boxShadow: `0 0 8px ${exp.accent}`,
+                  }} />
 
-                {/* Content Side */}
-                <div className="w-full md:w-1/2 pl-8 md:pl-0" />
+                {/* Spacer for opposite side */}
+                <div className="hidden md:block w-1/2" />
 
-                {/* Card Side */}
-                <div className="w-full md:w-1/2 pl-8 md:px-8">
-                  <div className="glass-panel p-8 rounded-2xl hover:border-cyan-400/50 hover:shadow-[0_0_20px_rgba(6,182,212,0.15)] transition-all duration-300 hover:-translate-y-1 group">
-                    <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-4 gap-2">
-                      <h3 className="text-2xl font-display font-bold text-white group-hover:text-cyan-300 transition-colors">
+                {/* Card */}
+                <div className="w-full md:w-1/2 pl-10 md:px-6">
+                  <motion.div
+                    whileHover={{ y: -3 }}
+                    className="glass-panel p-5 md:p-7 rounded-2xl transition-all duration-300 group"
+                    style={{ borderColor: 'rgba(200,130,170,0.1)' }}
+                    onMouseEnter={e => {
+                      const el = e.currentTarget as HTMLElement;
+                      el.style.borderColor = `${exp.accent}55`;
+                      el.style.boxShadow = `0 0 24px ${exp.accent}22`;
+                    }}
+                    onMouseLeave={e => {
+                      const el = e.currentTarget as HTMLElement;
+                      el.style.borderColor = 'rgba(200,130,170,0.1)';
+                      el.style.boxShadow = 'none';
+                    }}
+                  >
+                    {/* Header */}
+                    <div className="flex flex-wrap justify-between items-start gap-2 mb-3">
+                      <h3 className="text-sm md:text-base font-display font-bold text-white leading-snug flex-1">
                         {exp.role}
                       </h3>
-                      <span className="px-3 py-1 rounded-full bg-primary/20 text-primary text-sm font-medium border border-primary/20 whitespace-nowrap">
+                      <span className="text-xs px-2.5 py-1 rounded-full font-medium whitespace-nowrap"
+                        style={{ background: `${exp.accent}22`, color: exp.accentText, border: `1px solid ${exp.accent}40` }}>
                         {exp.period}
                       </span>
                     </div>
-                    
-                    <h4 className="text-lg text-primary mb-4 font-medium flex items-center gap-2">
-                      <span className="w-6 h-px bg-primary/50" />
-                      {exp.company}
-                    </h4>
-                    
-                    <p className="text-muted-foreground mb-6 leading-relaxed">
+
+                    {/* Company */}
+                    <p className="text-sm font-medium mb-3 flex items-center gap-1.5" style={{ color: exp.accentText }}>
+                      <span className="w-4 h-px" style={{ background: exp.accent }} />
+                      {exp.company}{exp.location ? ` · ${exp.location}` : ''}
+                    </p>
+
+                    <p className="text-xs md:text-sm text-muted-foreground leading-relaxed mb-4">
                       {exp.description}
                     </p>
-                    
-                    <div className="flex flex-wrap gap-2">
-                      {exp.tags.map((tag, i) => (
-                        <span 
-                          key={i}
-                          className="px-3 py-1 text-xs rounded bg-white/5 text-white/80 border border-white/10"
-                        >
+
+                    <div className="flex flex-wrap gap-1.5">
+                      {exp.tags.map(tag => (
+                        <span key={tag} className="px-2.5 py-1 text-xs rounded-lg"
+                          style={{ background: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,255,255,0.08)', color: 'rgba(255,255,255,0.65)' }}>
                           {tag}
                         </span>
                       ))}
                     </div>
-                  </div>
+                  </motion.div>
                 </div>
               </motion.div>
             ))}

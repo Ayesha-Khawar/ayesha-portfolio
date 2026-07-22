@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { useEffect, useState, useRef } from 'react';
 import { useInView } from 'framer-motion';
 import { Award, Code2, BrainCircuit, GraduationCap, Download } from 'lucide-react';
-import profilePic from '@assets/linkedin_profile_picture_1784645049028.jpeg';
+import profilePic from '@assets/linkedin_profile_picture_1784645612005.jpeg';
 
 function Counter({ from = 0, to, duration = 2, decimals = 0, suffix = '' }: {
   from?: number; to: number; duration?: number; decimals?: number; suffix?: string;

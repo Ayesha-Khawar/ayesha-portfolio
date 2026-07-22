@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import profilePic from '@assets/linkedin_profile_picture_1784645049028.jpeg';
+import profilePic from '@assets/linkedin_profile_picture_1784645612005.jpeg';
 
 export function GitHubWindow() {
   return (
@@ -45,14 +45,16 @@ export function GitHubWindow() {
             <p className="text-xs mb-4" style={{ color: '#c9d1d9' }}>
               AI Engineer | Full Stack Developer | Open Source Enthusiast
             </p>
-            <button className="w-full py-1.5 rounded-md text-xs font-medium mb-4 transition-colors"
-              style={{ background: '#21262d', border: '1px solid #30363d', color: '#c9d1d9' }}>
-              Follow
-            </button>
-            <div className="flex gap-4 text-xs" style={{ color: '#8b949e' }}>
-              <span><strong className="text-white">120</strong> followers</span>
-              <span><strong className="text-white">45</strong> following</span>
-            </div>
+            <a
+              href="https://github.com/Ayesha-Khawar"
+              target="_blank"
+              rel="noreferrer"
+              onClick={e => e.stopPropagation()}
+              className="w-full py-1.5 rounded-md text-xs font-medium mb-4 transition-colors text-center block"
+              style={{ background: '#21262d', border: '1px solid #30363d', color: '#c9d1d9' }}
+            >
+              View Profile
+            </a>
           </div>
 
           {/* Main Content */}
