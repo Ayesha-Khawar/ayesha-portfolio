@@ -25,6 +25,7 @@ function Counter({ from = 0, to, duration = 2, decimals = 0, suffix = '' }: {
       animationFrame = requestAnimationFrame(animate);
       return () => cancelAnimationFrame(animationFrame);
     }
+    return undefined;
   }, [isInView, from, to, duration]);
 
   return <span ref={ref}>{count.toFixed(decimals)}{suffix}</span>;

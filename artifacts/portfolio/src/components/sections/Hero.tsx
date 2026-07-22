@@ -82,8 +82,8 @@ function NeuralNetwork() {
       </Points>
       <lineSegments ref={linesRef}>
         <bufferGeometry>
-          <bufferAttribute attach="attributes-position" count={edges.positions.length/3} array={edges.positions} itemSize={3} />
-          <bufferAttribute attach="attributes-color"    count={edges.colors.length/3}    array={edges.colors}    itemSize={3} />
+          <bufferAttribute args={[edges.positions, 3]} attach="attributes-position" />
+          <bufferAttribute args={[edges.colors, 3]}    attach="attributes-color" />
         </bufferGeometry>
         <lineBasicMaterial vertexColors transparent opacity={0.14} blending={THREE.AdditiveBlending} />
       </lineSegments>
