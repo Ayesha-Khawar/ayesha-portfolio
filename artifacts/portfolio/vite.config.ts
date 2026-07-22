@@ -29,6 +29,10 @@ if (!basePath) {
 
 export default defineConfig({
   base: basePath,
+  define: {
+    // Inject the server-side secret so the static frontend can call Groq
+    'import.meta.env.VITE_GROQ_API_KEY': JSON.stringify(process.env.GROQ_API_KEY ?? ''),
+  },
   plugins: [
     react(),
     tailwindcss(),

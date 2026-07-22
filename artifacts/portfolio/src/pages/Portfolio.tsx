@@ -12,6 +12,7 @@ import { Certifications } from '@/components/sections/Certifications';
 import { Contact } from '@/components/sections/Contact';
 import { GitHubWindow, LinkedInWindow } from '@/components/windows/SocialWindows';
 import { AIAssistant } from '@/components/ai/AIAssistant';
+import { ScrollCrystal } from '@/components/three/ScrollCrystal';
 import { useEffect } from 'react';
 
 export default function Portfolio() {
@@ -54,6 +55,7 @@ export default function Portfolio() {
       </main>
       
       <Footer />
+      <ScrollCrystal />
       <AIAssistant />
     </div>
   );
